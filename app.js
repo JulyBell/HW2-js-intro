@@ -105,7 +105,7 @@ for(let i = 1; i <= selectedNum; i++){
 	sum += i;
 }
 
-console.log('Сумма чисел от 0 до ' + selectedNum + ' равна ' + sum)
+console.log('Сумма чисел от 1 до ' + selectedNum + ' равна ' + sum)
 
 
 
