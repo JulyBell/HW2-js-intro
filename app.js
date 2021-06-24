@@ -79,6 +79,7 @@ getDayInfo(3);
 getDayInfo(4);
 getDayInfo(5);
 getDayInfo(6);
+getDayInfo(7);
 
 console.log('------------- # 9');
 
@@ -100,7 +101,7 @@ console.log('------------- # 11');
 let selectedNum = prompt('Пожалуйста, выберите любое целое положительное число');
 let sum = 0;
 
-for(let i = 0; i < selectedNum; i++){
+for(let i = 1; i <= selectedNum; i++){
 	sum += i;
 }
 
